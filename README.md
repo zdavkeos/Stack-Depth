@@ -1,13 +1,15 @@
 # Counting stack depth in C with GCC
 
-## About I was curious about how the stack depth of C program grew
+## About 
+I was curious about how the stack depth of C program grew
 over the life of the program.  Languages like python make answering
 questions like this pretty easy; I thought C was going to be nearly
 impossible.  Fortunatly as quick Google search pointed me to a
 StackOverflow question that had just what i was looking for.  This
 simple project demos my findings.
 
-## How GCC is a wonderful tool.  It provides a
+## How 
+GCC is a wonderful tool.  It provides a
 `-finstrument-functions` command line switch that allows you to write
 your own hooks that get called anytime a function is entered or
 exited.  The
@@ -141,7 +143,7 @@ depth over the course of the program.  With just a little bit of
 And there we go (with annotations): 
 ![Plot](demos/plot_foobar.png)
 
-And here is another one of a recursive Fibonnaci function:
+And here is another one of a recursive Fibonacci function:
 ![Plot](demos/plot_fibo.png)
 
 ## Conclusion 
