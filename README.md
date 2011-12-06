@@ -1,14 +1,16 @@
 # Counting stack depth in C with GCC
 
-## About 
+## About
 I was curious about how the stack depth of C program grew
 over the life of the program.  Languages like python make answering
 questions like this pretty easy; I thought C was going to be nearly
-impossible.  Fortunatly as quick Google search pointed me to a
-StackOverflow question that had just what i was looking for.  This
-simple project demos my findings.
+impossible.  Fortunately as quick Google search pointed me to a
+[StackOverflow
+question](http://stackoverflow.com/questions/2281739/automatically-adding-enter-exit-function-logs-to-a-project)
+that had just what i was looking for.  This simple project demos my
+findings.
 
-## How 
+## How
 GCC is a wonderful tool.  It provides a
 `-finstrument-functions` command line switch that allows you to write
 your own hooks that get called anytime a function is entered or
