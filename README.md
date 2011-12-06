@@ -46,9 +46,6 @@ I wanted to keep it simple and just run a few tests.  The first
 program I ran looks like this:
 
     ...
-    void foo();
-    void bar();
-    
     int main(int argc, char** argv)
     {
         int i;
@@ -143,10 +140,10 @@ depth over the course of the program.  With just a little bit of
     gnuplot> plot "output_foobar.txt" with linespoints
 
 And there we go (with annotations): 
-![Plot](https://github.com/zdavkeos/Stack-Depth/blob/master/demos/plot_foobar.png)
+[Plot](https://github.com/zdavkeos/Stack-Depth/blob/master/demos/plot_foobar.png)
 
 And here is another one of a recursive Fibonacci function:
-![Plot](https://github.com/zdavkeos/Stack-Depth/blob/master/demos/plot_fibo.png)
+[Plot](https://github.com/zdavkeos/Stack-Depth/blob/master/demos/plot_fibo.png)
 
 ## Conclusion 
 GCC is way more than a compiler, it has lots of awesome
